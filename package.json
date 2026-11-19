@@ -1,0 +1,15 @@
+{
+  "name": "todomvc-e2e-tests",
+  "version": "1.0.0",
+  "description": "Lab 6 - Part 2: E2E and Screenshot tests for TodoMVC web application",
+  "scripts": {
+    "test": "playwright test",
+    "start": "http-server -p 3000"
+  },
+  "author": "Albul Vira",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "latest",
+    "http-server": "latest"
+  }
+}
